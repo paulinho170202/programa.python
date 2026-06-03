@@ -1,0 +1,16 @@
+# Precio normal de una galleta
+precio = 10.00
+
+# Leer cantidad de galletas que no son del día
+cantidad = int(input("Ingresa el número de galletas no frescas vendidas: "))
+
+# Calcular descuento y costo final
+descuento = precio * 0.60
+precio_final = precio - descuento
+costo_total = cantidad * precio_final
+
+# Mostrar resultados
+print("Precio habitual de una galleta: $", precio)
+print("Descuento por no ser fresca: $", descuento)
+print("Precio de una galleta con descuento: $", precio_final)
+print("Costo final total: $", costo_total)
